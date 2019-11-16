@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+#first-page {}
+
+.bg-image {
+  background-image: url("./images/4.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#first-page h1 {
+  color: whitesmoke;
+  font-size: 8vw;
+  text-align: center;
+  padding: 10px;
+}
+
+.content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutme-page {
+  background-color: #f5f5f5;
+  background-attachment: fixed;
+}
+
+#aboutme-page h3 {
+  font-size: 2vw;
+  text-align: center;
+}
+
+#aboutme-page h5 {
+  font-size: 2vw;
+}
+
+#aboutme-page p {
+  font-size: 1.25vw;
+}
+#aboutme-page thead {
+  font-size: 1.25vw;
+}
+#aboutme-page tbody {
+  font-size: 1.25vw;
+}
+.my-img {
+  width: 80%;
+}
+
+
+@media (max-width: 576px) {
+  #aboutme-page h3 {
+    text-align: center;
+    font-size: 5vw;
+  }
+
+  #skill-page .head-s {
+    text-align: center;
+    font-size: 5vw;
+  }
+
+  .my-img{
+      width: 50%;
+  
+      padding-bottom: 10px;
+  }
+
+  #aboutme-page thead{
+      font-size: 2vw;
+  }
+
+  #aboutme-page tbody{
+      font-size: 2vw;
+  }
+
+  #aboutme-page p {
+    font-size: 2vw;
+  }
+
+  #aboutme-page .centerlize-text{
+    text-align: center;
+  }
+
+  #skill-page .centerlize-text{
+    text-align: center;
+  }
+
+}
+
+#skill-page img{
+  width: 10vw;
+}
+
+#skill-page h3 {
+  font-size: 2vw;
+  text-align: center;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.skill-level{
+    background-color: #2d3436;
+}
+
+#footer h5{
+  padding-bottom: 10px;
+}
+
+.footer-height{
+  height: 20vh;
+}
+
+.social-icon{
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+.phone-icon{
+  width: 17%;
+  padding-right: 10px;
+}

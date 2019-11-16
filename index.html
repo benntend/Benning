@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Benning's Profile</title>
+</head>
+
+<body>
+  <div id="app1">
+    <!--First Page-->
+    <section class="container-fluid full-height content-center" style="padding-right: 0; padding-left: 0;"
+      id="first-page">
+      <div class="bg-image"></div>
+      <div class="content-center" style="position: absolute;">
+        <h1>Hi, I'm Benning</h1>
+      </div>
+    </section>
+
+    <!--About me-->
+    <section class="container-fluid full-height" id="aboutme-page">
+      <div class="row content-center">
+        <div class="col-sm-3">
+          <h3>About Me</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-5 content-center">
+          <img v-bind:src="image" alt="My Picture" class="my-img">
+        </div>
+        <div class="col-sm-7 centerlize-text">
+          <p><b>Name : </b>Sedthawuth Maisonti</p>
+          <p><b>Date Of Birth : </b>13 August 1998</p>
+          <p><b>Military Status : </b>Exempted by finishing Reserve Offies’ Training Corps Course</p>
+          <p><b>Date of Availability : </b>2nd June 2019</p>
+          <h5>Education</h5>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Year</th>
+                <th scope="col">Degree</th>
+                <th scope="col">School</th>
+                <th scope="col">Grade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">2014-2016</th>
+                <td>HighSchool</td>
+                <td>Samsen Wittiyalai School</td>
+                <td>2.98</td>
+              </tr>
+              <tr>
+                <th scope="row">2017-current</th>
+                <td>University</td>
+                <td>Information Technology, King Mongkut's Institute of Technology Ladkrabang</td>
+                <td>2.76</td>
+              </tr>
+            </tbody>
+          </table>
+          <p><b>Work Objective : </b>Web or Java Developer or Data Analysis</p>
+        </div>
+      </div>
+    </section>
+
+    <!--Skills-->
+    <section class="container-fluid" id="skill-page">
+      <div class="row1">
+        <div class="col-sm-6 content-center" style="background-color: white;">
+          <div class="centerlize-text">
+            <div class="row">
+              <div class="col-sm-12 content-center">
+                <h3 class="head-s">My Skills</h3>
+              </div>
+            </div>
+            <div class="row content-center">
+              <div class="col-sm-3">
+                <figure class="figure">
+                  <img src="./images/html5.png" class="figure-img img-fluid rounded"
+                    alt="A generic square placeholder image with rounded corners in a figure.">
+                  <figcaption class="figure-caption" style="text-align:center;">HTML</figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-3">
+                <figure class="figure">
+                  <img src="./images/css3.png" class="figure-img img-fluid rounded"
+                    alt="A generic square placeholder image with rounded corners in a figure.">
+                  <figcaption class="figure-caption" style="text-align:center;">CSS</figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-3">
+                <figure class="figure">
+                  <img src="./images/javascript.png" class="figure-img img-fluid rounded"
+                    alt="A generic square placeholder image with rounded corners in a figure.">
+                  <figcaption class="figure-caption" style="text-align:center;">JAVASCRIPT</figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-3">
+                <figure class="figure">
+                  <img src="./images/vue.png" class="figure-img img-fluid rounded"
+                    alt="A generic square placeholder image with rounded corners in a figure.">
+                  <figcaption class="figure-caption" style="text-align:center;">VUEJS</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row content-center">
+              <div class="col-sm-3">
+                <figure class="figure">
+                  <img src="./images/java.png" class="figure-img img-fluid rounded"
+                    alt="A generic square placeholder image with rounded corners in a figure.">
+                  <figcaption class="figure-caption" style="text-align:center;">JAVA</figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-3">
+                <figure class="figure">
+                  <img src="./images/python.png" class="figure-img img-fluid rounded"
+                    alt="A generic square placeholder image with rounded corners in a figure.">
+                  <figcaption class="figure-caption" style="text-align:center;">PYTHON</figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-3">
+                <figure class="figure">
+                  <img src="./images/github.png" class="figure-img img-fluid rounded"
+                    alt="A generic square placeholder image with rounded corners in a figure.">
+                  <figcaption class="figure-caption" style="text-align:center;">GITHUB</figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-3">
+                <figure class="figure">
+                  <img src="./images/english.png" class="figure-img img-fluid rounded"
+                    alt="A generic square placeholder image with rounded corners in a figure.">
+                  <figcaption class="figure-caption" style="text-align:center;">ENGLISH</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 content-center skill-level">
+          <div style="width: 80%;">
+            <div class="row1">
+              <div class="col-sm-12">
+                <h3 style="text-align: center; color: white;"  class="head-s">My Personal Perspective</h3>
+              </div>
+            </div>
+            <div class="row1">
+              <div class="col-sm-12">
+                <label>Positive Attitude</label>
+                <div class="progress">
+                  <div class="determinate" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row1">
+              <div class="col-sm-12">
+                <label>Good Command of English</label>
+                <div class="progress">
+                  <div class="determinate" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row1" style="padding-bottom: 10px;">
+              <div class="col-sm-12">
+                <label>Willing and ready to learn new things</label>
+                <div class="progress">
+                  <div class="determinate" style="width: 100%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="page-footer bg-secondary" id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Contact Me</h5>
+              <p class="grey-text text-lighten-4"><img class="phone-icon" src="./images/phone.png" alt="">092-415-5433</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Social Media</h5>
+              <ul style="display: flex;">
+                <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/profile.php?id=100009328793241"><img src="./images/facebook.png" alt="facebook" class="social-icon"></a></li>
+                <li><a class="grey-text text-lighten-3" href="https://bit.ly/2TJPQDC"><img src="./images/line.png" alt="line" class="social-icon"></a></li>
+                <li><a class="grey-text text-lighten-3" href="https://github.com/benning55"><img src="./images/github-icon.png" alt="my-git" class="social-icon"></a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/sedthawuth-maisonti-4b724214a/"><img src="./images/linkedin.png" alt="livk" class="social-icon"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright text-center">
+          <div class="container">
+          © 2019 Copyright
+          </div>
+        </div>
+      </footer>
+    <!--Footer-->
+    <!--<footer class="container-fluid footer-height" id="footer">
+      
+    </footer>-->
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    var vm = new Vue({
+      el: "#app1",
+      data() {
+        return {
+          windowWidth: 0,
+          txt: '',
+          image: "./images/1.jpg"
+        }
+      },
+      methods: {},
+      watch: {
+        windowWidth(newWidth, oldWidth) {
+          this.txt = `It chnge to ${newWidth} form ${oldWidth}`;
+        },
+      },
+      mounted() {
+        this.$nextTick(() => {
+          window.addEventListener('resize', () => {
+            this.windowWidth = window.innerWidth;
+            if (this.windowWidth < 576) {
+              this.image = "./images/3.JPG"
+            } else {
+              this.image = "./images/1.jpg"
+            }
+          });
+        })
+      },
+    });
+
+  </script>
+
+</body>
+
+</html>
